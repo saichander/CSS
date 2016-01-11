@@ -1,0 +1,18 @@
+body{
+	background-color:brown;
+}
+h1{
+	color:blue;
+	font-size:12px;
+}
+.ad{
+	color:pink;
+	font-size:14px;
+}
+#sd{
+	color:red;
+	font-size:24px;
+}
+p{
+	background-color:black;
+}
