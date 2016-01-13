@@ -1,0 +1,11 @@
+.orange{
+background-color:orange;
+}
+.inline{
+  background:blue;
+  display: inline;
+}
+.block{
+background:green;
+display: inline-block;
+}

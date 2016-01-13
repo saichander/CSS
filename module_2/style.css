@@ -9,22 +9,27 @@
     font-style: normal;
 }
 body{
-    margin:5px 350px 5px 350px;
+    margin:0px 350px 0px 350px;
+}
+
+h1{
+  font-size:50px;
+}
+#open{
+padding-top:20px;
 }
 hr{
+  padding-up:0px;
   border-top:2px dotted;
 }
-#add{
-    font-family: 'Patua One', cursive;
-    font-size:100px;
-}
+
 #mad{
     font-family:'open_sansbold_italic';
 }
 #cad{
-    font-size:12px;
- border-left:solid black;
+    border-left:solid black;
  margin-left:10px;
-  }
+padding-left:10px;
+font-size:12px; }
 
 
