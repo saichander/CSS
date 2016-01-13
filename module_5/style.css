@@ -5,9 +5,14 @@ background-color:orange;
   background:blue;
   display: inline;
 }
+.block-main{
+
+}
 .block{
 background:green;
 display: inline-block;
+width:750px;
+color:white;
 }
 .block.two{
 }
