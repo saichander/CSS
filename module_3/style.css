@@ -1,11 +1,16 @@
+body{
+    padding:0px;
+    margin:0px;
+}
 #brdr{
   border-style: solid;
       border-width: 25px;
       border-color:gray;
 background-image:url("atlas.jpg");
 background-repeat:no-repeat;
-background-size:cover;
+background-size:100% 100%;
 margin:0px;
+height:95%;
 }
 #case{
         text-transform: uppercase;
@@ -13,6 +18,34 @@ margin:0px;
         text-align:center;
         padding:80px 20px 20px 20px;
       }
-.appr{
-  padding:50px 380px 50px 450px;
+.appr .browser{
+float:left;
+top:50%;
+}
+.one, .two, .three, .four, .five{
+  position:absolute;
+}
+.one{
+  top:38%;
+  left:18%;
+}
+
+.two{
+  top:38%;
+  left:32%;
+}
+
+.three{
+  top:38%;
+  left:46%;
+}
+
+.four{
+  top:38%;
+  left:60%;
+}
+
+.five{
+  top:38%;
+  left:74%;
 }

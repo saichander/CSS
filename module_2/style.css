@@ -13,13 +13,14 @@ body{
 }
 
 h1{
+  font-family: 'PT Serif', serif;
   font-size:50px;
 }
 #open{
 padding-top:20px;
 }
 hr{
-  padding-up:0px;
+  padding-top:0px;
   border-top:2px dotted;
 }
 
