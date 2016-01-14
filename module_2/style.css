@@ -9,15 +9,17 @@
     font-style: normal;
 }
 body{
-    margin:0px 350px 0px 350px;
+    margin:0px 430px 0px 430px;
 }
 
 h1{
   font-family: 'PT Serif', serif;
   font-size:50px;
+  margin:0px;
 }
 #open{
-padding-top:20px;
+padding-top:0px;
+
 }
 hr{
   padding-top:0px;
