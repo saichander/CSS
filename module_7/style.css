@@ -1,0 +1,52 @@
+body{
+
+}
+.main{
+  background-size:100% 100%;
+}
+.c1 ,.c2, .c3 , .line li{
+  display:inline-block;
+  width:33%;
+}
+
+.line li+li{
+  margin-left:33.3%;
+}
+li:first-child{
+  font-weight: bold;
+
+}
+
+.c2 li{
+position:relative;
+top:7%;
+left:12%;
+}
+.c3 li{
+position:relative;
+top:7%;
+left:20%;
+}
+
+.line ul{
+  padding-left:0px;
+}
+ul{
+list-style-type:None;
+}
+.line li{
+  width: 1.25%;
+  height: 2%;
+  border-radius: 25px;
+  background-color: cyan;
+  margin: 0 0 0 100px;
+}
+.line li::after{
+  content: '';
+  position: absolute;
+  top: 2.8%;
+  left: 7.1%;
+  width: 70%;
+  height: .2em;
+  background:cyan;
+}
