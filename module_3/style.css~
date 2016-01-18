@@ -9,7 +9,7 @@ body{
   background-repeat:no-repeat;
   background-size:100% 100%;
   margin:10px;
-  height:95%;
+  height:940px;
 }
 #case{
   text-transform: uppercase;
@@ -20,56 +20,53 @@ body{
 .appr{
   width:100%;
   text-align="center";
-  margin:12% 0 0 20%;
 }
-
+.one .two .three .four .five{
+  display:inline-block;
+}
+.a .b .c .d .e{
+display:inline-block;
+}
 .one{
-   display:inline-block;
-  background-image:url("https://github.com/alrra/browser-logos/blob/master/chrome/chrome.png?raw=true");
+display:block;
+    background-image:url("https://github.com/alrra/browser-logos/blob/master/chrome/chrome.png?raw=true");
     height:100px;
     background-repeat:no-repeat;
 width: 100px;
 background-size:100% 100%;
 }
 .two{
-   display:inline-block;
+  display:block;
  height:100px;
-background-image:url("https://github.com/alrra/browser-logos/blob/master/firefox/firefox.png?raw=true");
+background-image:url("https://www.mozilla.org/en-US/firefox/new/");
     background-repeat:no-repeat;
 width: 100px;
 background-size:100% 100%;
 }
 .three{
-   display:inline-block;
+  display:block;
  height:100px;
-background-image:url("https://github.com/alrra/browser-logos/blob/master/safari/safari.png?raw=true");
+background-image:url("https://support.apple.com/downloads/safari");
     background-repeat:no-repeat;
 width: 100px;
 background-size:100% 100%;
 }
 .four{
-   display:inline-block;
+  display:block;
  height:100px;
-background-image:url("https://github.com/alrra/browser-logos/blob/master/opera/opera.png?raw=true");
+background-image:url("http://www.opera.com/download//");
     background-repeat:no-repeat;
 width: 100px;
 background-size:100% 100%;
 }
- .five{
-    display:inline-block;
+.five{
+  display:block;
  height:100px;
     background-repeat:no-repeat;
 width: 100px;
 background-size:100% 100%;
-background-image:url("https://github.com/alrra/browser-logos/blob/master/internet-explorer/internet-explorer.png?raw=true/alrra/browser-logos/blob/master/internet-explorer/internet-explorer.png?raw=true");
+background-image:url("https://www.microsoft.com/en-in/download/internet-explorer.aspx");
 }
-.chr, .fir, .saf, .ope, .int{
-padding:0 40px;
-
-}
-.one, .two, .three, .four, .five{
-  display:inline-block;
-  }
 /*float:left;
 top:50%;
 }
