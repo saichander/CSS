@@ -1,6 +1,6 @@
 body{
   padding:0px;
-  margin:0px;
+  margin:10px;
   background:grey;
 }
 #brdr{
@@ -8,8 +8,7 @@ body{
   background-image:url("atlas.jpg");
   background-repeat:no-repeat;
   background-size:100% 100%;
-  margin:10px;
-  height:95%;
+  height:98%;
 }
 #case{
   text-transform: uppercase;
@@ -18,9 +17,12 @@ body{
   padding:80px 0px 20px 0px;
 }
 .appr{
-  width:100%;
-  text-align="center";
-  margin:12% 0 0 20%;
+  display:inline-block;
+  text-align:center;
+  margin:12% 0 0 20% ;
+}
+.p{
+margin:0;
 }
 
 .one{
