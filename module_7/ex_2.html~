@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>
+      seventh exercise
+    </title>
+    <link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="line1">
+        <p><i class="fa fa-check grey"></i>show advertisemnet metrics in dashboard</p>
+        </div>
+        <div class="lr">
+        <div class="left">
+          <p>Summary Metrics</p>
+          <ul class="first">
+
+            <li class="one"><span class="line"></span><i class="fa fa-check green"></i><span class="text">total  impressions</span></li>
+  <li><span class="line"></span><i class="fa fa-check green"></i><span class="text">spend</span></li>
+  <li><span class="line"></span><i class="fa fa-check grey"></i><span class="text">cpa</span></li>
+  </ul>
+
+        </div>
+          <div class="right">
+            <p>Graphs</p>
+            <ul class="second">
+              <li><span class="line"></span><i class="fa fa-check green"></i><span class="text">impressions</span></li>
+              <li><span class="line"></span><i class="fa fa-check green"></i><span class="text">spend</span></li>
+              <li><span class="line"></span><i class="fa fa-check grey"></i><span class="text">ctr</span></li>
+              <li><span class="line"></span><i class="fa fa-check grey"></i><span class="text">cvr</span></li>
+              <li><span class="line"></span><i class="fa fa-check grey"></i><span class="text">clicks</span></li>
+              </ul>
+          </div>
+          </div>
+    </div>
+            </body>
+            </html>

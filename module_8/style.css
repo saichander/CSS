@@ -1,94 +1,100 @@
 body{
-margin:0;
-background-size:100% 100%;
+  margin:0 auto;
+  background-size:100% 100%;
 }
 .main{
-  width:100%;
-  height:100%;
+  overflow:hidden;
 }
 .header > p{
-margin:0;
-padding-top:5px;
+  margin:0;
+  padding-top:6px;
 }
 .header{
-background-color:#0275D8;
-color:white;
-text-align:center;
-height:5%;
+  background-color:#0275D8;
+  color:white;
+  text-align:center;
+  height:34px;
 }
 .menu{
   color:#563D7C;
-height:6%;
-margin-left:90px;
-position:relative;
-}
-p, .sub-menu{
-display:inline-block;
+  height:34px;
+  margin-left:90px;
+  padding-bottom:10px;
 }
 .menu > p{
-font-weight:bold;
+  font-weight:bold;
 }
-.sub-left, .sub-right{
-display:inline-block;
-padding:0 113px 0 0;
-}
+
 li{
   padding-right:25px;
-display:inline-block;
+  display:inline-block;
 }
 .sub-right{
-  position:absolute;
-  top:0;
-  right:2%;
+  float:right;
+padding-right:30px;
 }
 .sub-left{
-position:absolute;
-top:0;
-left:05%;
+  position: absolute;
 }
 .B{
-background-color:#5C4282;
-color:#fff;
-text-align:center;
-position:relative;
-height:60%;
+  background-color:#5C4282;
+  color:#fff;
+  text-align:center;
+  position:relative;
+ padding:40px 0 0 0;
+  height:62%;
+}
+.B > div{
+margin: auto;
 }
 .logo{
-border:1.5px solid #BFAFD7;
-position:absolute;
-top:6%;
-left:45%;
-width:100px;
-height:100px;
-border-radius:25px;
-text-align:center;
-margin:20px;
-}
-.logo > p{
-font-size:40px;
-font-weight:bold;
+  border:1.5px solid #BFAFD7;
+  width:100px;
+  height:100px;
+  border-radius:15px;
+  text-align:center;
+  font-size:90px;
+margin-top:60px;
 }
 .menu > p{
-width:20%;
+  width:20%;
 }
-.logo + p, .logo + p + p {
-font-size:20px;
+.logo + p {
+  width:50%;
+  font-size:24px;
+  margin:30px auto;
+  font-family:Impact, Charcoal, sans-serif;
 }
 .download{
-border:1.5px solid #BFAFD7;
-font-size:18px;
-border-radius:25px;
-position:absolute;
-left:40%;
-top:60%;
-width:300px;
-height:60px;
-text-align:center;
+  border:1.5px solid #BFAFD7;
+  font-size:18px;
+  border-radius:25px;
+  width:300px;
+  height:60px;
+  text-align:center;
 }
-.download + p {
-color:#9581B8;
-font-size:14px;
+a{
+  color:#fff;
+  text-decoration:none;
+}
+.version {
+  text-align:center;
+  color:#9581B8;
+  font-size:14px;
 }
 .footer{
-text-align:center;
+  text-align:center;
+  font-family:Impact, Charcoal, sans-serif;
+}
+.footer > p:first-child{
+font-size:40px;
+
+margin:40px 0 0 0;
+}
+.footer > p+p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:lighter;
+  font-size:14px;
+margin:0 auto;
+width:54.5%;
 }
