@@ -1,0 +1,97 @@
+body{
+border-top:2px solid #EB9387;
+background-color:#F4F5F7;
+margin:8% 34%;
+}
+form{
+background-color: #fff;
+text-align:center;
+}
+p:first-child{
+margin-top:0;
+padding-top:50px;
+}
+button+p, button+p+p {
+  margin:32px 0;
+}
+button+p+p{
+padding-bottom:10px;
+}
+.one{
+margin-top:30px;
+}
+div{
+  margin:34px 91px 10px;
+}
+.three{
+  margin:20px 0;
+padding:0;
+}
+.fa{
+border-right:2px solid #CED3D7;
+color:#00AAEF;
+padding-right:15px;
+}
+.one, .two{
+border-bottom:2px solid #CED3D7;
+padding-bottom:15px;
+}
+/*
+.line{
+display:block;
+background-color:#CED3D7;
+width:300px;
+height:2px;
+margin-left:100px;
+}*/
+input{
+border:0;
+margin-left:10px;
+}
+#toggle{
+display:None;
+}
+a{
+text-decoration:none;
+color:#00AAEF;
+}
+.three > label, .three > p{
+display:inline-block;
+}
+.three > p{
+}
+button{
+background-color:#00AAEF;
+border:0;
+border-radius:3px;
+padding:14px 115px;
+color:#fff;
+font-size:20px;
+}
+p{
+font-size:14px;
+}
+.fa, input{
+display:inline-block;
+}
+.cyan{
+display:inline-block;
+border:2px solid #00AAEF;
+margin:0;
+padding:0px;
+color: #00AAEF;
+}
+.cyan > .fa{
+border:0;
+padding:0;
+
+}
+#toggle:not(:checked)+label{
+padding:6px;
+}
+#toggle:not(:checked)+label > .tick{
+
+display:None;
+
+}
+

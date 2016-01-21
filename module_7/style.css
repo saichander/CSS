@@ -26,6 +26,7 @@ display:inline-block;
 height:9px;
 width:31.6%;
 position:absolute;
+z-index:-1;
 }
 .two > .line{
  border-bottom:5px #808080 solid;

@@ -14,7 +14,6 @@ width:37%;
 top:15%;
 }
 li{
-padding:40px 0 0px 0px;
 }
 
  ul
@@ -43,9 +42,10 @@ border-bottom:2px solid #CDCDCD;
 width:10%;
 
 }
+/*
 li:last-child {
   height:33px;
-}
+}*/
 .fa, .fa-check, .green
 {
 color:green;
@@ -53,4 +53,16 @@ color:green;
  .grey
 {
 color:grey;
+}
+.line2{
+width:2px;
+height:35px;
+position:absolute;
+left:39px;
+
+display:inline-block;
+background-color:#CDCDCD;
+}
+li:last-child{
+border:none;
 }
